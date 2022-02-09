@@ -46,7 +46,9 @@ class Trainer:
         
         loss = self.network.loss(x_batch, t_batch)
         self.train_loss_list.append(loss)
-        if self.verbose: print("train loss:" + str(loss))
+        if self.verbose: 
+            #print("train loss:" + str(loss))
+            print("accuracy -> ", str(self.network.accuracy(x_batch, t_batch)))
         
         if self.current_iter % self.iter_per_epoch == 0:
             self.current_epoch += 1
