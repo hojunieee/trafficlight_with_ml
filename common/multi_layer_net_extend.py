@@ -29,7 +29,7 @@ class MultiLayerNetExtend:
     """
     def __init__(self, input_size, hidden_size_list, output_size,
                  activation='relu', weight_init_std='relu', weight_decay_lambda=0, 
-                 use_dropout = False, dropout_ration = 0.5, use_batchnorm=False):
+                 use_dropout = True, dropout_ration = 0.5, use_batchnorm=True):
         self.input_size = input_size
         self.output_size = output_size
         self.hidden_size_list = hidden_size_list
