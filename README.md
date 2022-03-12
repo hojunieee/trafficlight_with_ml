@@ -4,3 +4,4 @@
 - The image data set is from the Udacity course "Introduction to Selfdrivng Car Nanodegree Program"
 - I optimized the neural network architecture originally designed for the MNIST dataset to fit a traffic light image dataset.
 - I trained and tested for a traffic light image dataset, resulting in 99% accuracy. (When using multi-layered NN, not CNN)
+- But the acccuracy ranges from 95%~99% depending on trials, and I'm not sure if this is a normal behavior..?
